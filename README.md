@@ -1,4 +1,4 @@
-# Systemd Journald (`aisbergg.systemd-journald`)
+# Ansible Role: `aisbergg.systemd_journald`
 
 This role configures the logging service systemd-journald.
 
@@ -21,12 +21,12 @@ None.
 
 ```yaml
 - hosts: all
-  vars: 
+  vars:
     systemd_journald_config:
       Storage: persistent
       SystemMaxUse: 100M
   roles:
-    - aisbergg.systemd-journald
+    - aisbergg.systemd_journald
 ```
 
 ## License
