@@ -2,11 +2,24 @@
 
 All notable changes to this project will be documented in this file.
 
+- [2.1.0 (2022-01-28)](#2.1.0-2022-01-28)
 - [2.0.0 (2021-10-11)](#200-2021-10-11)
 - [1.0.1 (2020-05-28)](#101-2020-05-28)
 - [1.0.0 (2020-02-16)](#100-2020-02-16)
 
 ---
+
+<a name="2.1.0"></a>
+## [2.1.0](https://github.com/aisbergg/ansible-role-systemd-journald/compare/v2.0.0...2.1.0) (2022-01-28)
+
+### CI Configuration
+
+- fix automatic release and publish process
+
+### Chores
+
+- include changelog in bump commits
+
 
 <a name="2.0.0"></a>
 ## [2.0.0](https://github.com/aisbergg/ansible-role-systemd-journald/compare/v1.0.1...v2.0.0) (2021-10-11)
@@ -17,6 +30,7 @@ All notable changes to this project will be documented in this file.
 
 ### Chores
 
+- update changelog
 - update development configs
 - **.ansible-lint:** update linter config
 - **.pre-commit-config.yaml:** bump pre-commit hook versions
